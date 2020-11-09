@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingVertical="20dp">
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/buttonbackround"
+            android:text="-"
+            android:textSize="30sp"
+            android:id="@+id/btnLe"/>
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:textSize="40sp"
+            android:text="A"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:id="@+id/textBetu"
+            android:textColor="@color/betuszin"/>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/buttonbackround"
+            android:text="+"
+            android:textSize="30sp"
+            android:id="@+id/btnFel"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tippel"
+        android:textSize="30sp"
+        android:id="@+id/btnTippel"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:src="@drawable/akasztofa13"
+        android:id="@+id/imgAkasztofa"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="60sp"
+        android:textSize="40sp"
+        android:text=""
+        android:id="@+id/textSzoveg"
+        android:letterSpacing="0.2"/>
+
+</LinearLayout>
